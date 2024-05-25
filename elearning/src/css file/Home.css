@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(53, 53, 112);
+    font-style: italic;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-display: center;
+}
+
+.btn-corces{
+    background-color: aqua;
+    color: black;
+    padding: 3px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5%;
+
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
